@@ -1,4 +1,3 @@
-// src/app/auth/auth.service.ts
 
 import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
@@ -15,7 +14,7 @@ export class AuthService {
     clientID: 'bQL77qEg0nbDX7vaf7TTecc9xG2mI1z0',
     domain: 'dev-9ttx05l4.eu.auth0.com',
     responseType: 'token id_token',
-    redirectUri: 'http://localhost:3000/callback',
+    redirectUri: 'http://localhost:4200',
     scope: 'openid'
   });
 
